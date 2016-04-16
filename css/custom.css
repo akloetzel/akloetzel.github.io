@@ -889,6 +889,12 @@ color: #595959;
 
 /* MEDIA SPECIALS
 -------------------------------------------------- */
+@media (min-width: 768px) {
+  .navbar-nav>li>a {
+    padding-top: 19px;
+    padding-bottom: 10px;
+  }
+}
 
 @media (max-width:767px) {
   h1.codebold, .codebold{
